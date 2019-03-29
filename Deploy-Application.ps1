@@ -119,7 +119,7 @@ Try {
 		[string]$installPhase = 'Pre-Installation'
 
 		## Show Welcome Message, close Internet Explorer if needed, verify there is enough disk space to complete the install, and persist the prompt
-		Show-InstallationWelcome -CloseApps 'iexplore' -CheckDiskSpace -PersistPrompt
+		Show-InstallationWelcome -CloseApps 'clockwork' -CheckDiskSpace -PersistPrompt
 
 		## Show Progress Message (with the default message)
 		Show-InstallationProgress
@@ -162,7 +162,7 @@ Try {
 		[string]$installPhase = 'Pre-Uninstallation'
 
 		## Show Welcome Message, close Internet Explorer with a 60 second countdown before automatically closing
-		Show-InstallationWelcome -CloseApps 'iexplore' -CloseAppsCountdown 60
+		Show-InstallationWelcome -CloseApps 'clockwork' -CloseAppsCountdown 60
 
 		## Show Progress Message (with the default message)
 		Show-InstallationProgress
@@ -213,8 +213,8 @@ Catch {
 # SIG # Begin signature block
 # MIIOaQYJKoZIhvcNAQcCoIIOWjCCDlYCAQExCzAJBgUrDgMCGgUAMGkGCisGAQQB
 # gjcCAQSgWzBZMDQGCisGAQQBgjcCAR4wJgIDAQAABBAfzDtgWUsITrck0sYpfvNR
-# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUizmi/7KFBtv7eY59vTqBhjqw
-# 8uGggguhMIIFrjCCBJagAwIBAgIQBwNx0Q95WkBxmSuUB2Kb4jANBgkqhkiG9w0B
+# AgEAAgEAAgEAAgEAAgEAMCEwCQYFKw4DAhoFAAQUDfu9Yg75oHiVpkfAS6gkUw+n
+# Up+ggguhMIIFrjCCBJagAwIBAgIQBwNx0Q95WkBxmSuUB2Kb4jANBgkqhkiG9w0B
 # AQsFADB8MQswCQYDVQQGEwJVUzELMAkGA1UECBMCTUkxEjAQBgNVBAcTCUFubiBB
 # cmJvcjESMBAGA1UEChMJSW50ZXJuZXQyMREwDwYDVQQLEwhJbkNvbW1vbjElMCMG
 # A1UEAxMcSW5Db21tb24gUlNBIENvZGUgU2lnbmluZyBDQTAeFw0xODA2MjEwMDAw
@@ -281,11 +281,11 @@ Catch {
 # BAsTCEluQ29tbW9uMSUwIwYDVQQDExxJbkNvbW1vbiBSU0EgQ29kZSBTaWduaW5n
 # IENBAhAHA3HRD3laQHGZK5QHYpviMAkGBSsOAwIaBQCgeDAYBgorBgEEAYI3AgEM
 # MQowCKACgAChAoAAMBkGCSqGSIb3DQEJAzEMBgorBgEEAYI3AgEEMBwGCisGAQQB
-# gjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBQ0wsxrB9GIoPAz
-# 5fPw0SV44dvcETANBgkqhkiG9w0BAQEFAASCAQBCbVLir2CIuHaS1bMZRBS25i42
-# 0pJBakdWcN44m433WkGzjAAsjwiAghxuh2X1Vcn/xQuribKyvihjlG7g96bCW+eq
-# ecyzh/K7finSRFvu0E0gV6WjdwiTh8XcMCovzcPa2e1fPToh7M/4M8SJ0Y26iDun
-# fsZPJUZNwPHvDGAHKyFjGswAwROJBo0S3x1bMu6Lm2wMuhD/z76O1bgada3rawss
-# jYMMUTgQ+5YKgXTLfTzFqCp3r9f2fgjTZ+c7Lo3PhHt/KPR0dqS/kOfajAPEOwNp
-# tH8IktvGD/K8OvipnRUVHkI2Q/nGhINc+X3GUOpaULWL4js7t+H4DeZeTIUu
+# gjcCAQsxDjAMBgorBgEEAYI3AgEVMCMGCSqGSIb3DQEJBDEWBBRU/vg0oNE4Xx7L
+# wnVk2whZwwhd8jANBgkqhkiG9w0BAQEFAASCAQB4gkKPeT0r+RmSJEmO2JpXceCL
+# mmOJYhtZy3CzGi5JQFE3qXdP9IYFSBpyi/9NDfvZiuU/AAYczUqjB0EMV1L8Gtto
+# iiK2eiA/VqK3MJ3vBAAvelSOlDpIGtWVzzV3dEZrq5vyRJIk1iF3ibcalQDnnBdr
+# h98Yfzn4SwzoSDftymiIbbROfrTsRzk1XbZ1DUHYpGXc7Dhseo95QLmN1LvSEjFx
+# EgUaxI+858wjlA/48NvA+rnES68wy20gZiFCZJCpk8FNHwHHjoKOA/hQ5gP2xWM9
+# 4/ay/1JK6SQSeDLulsaCVW3x5cKv3ZPtdHXaDcTB5ZAT8snxBHkjnK5aXA+Q
 # SIG # End signature block
